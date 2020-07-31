@@ -124,7 +124,7 @@ public class myfirstapp extends MainWindow {
             sc.add(Clear, CENTER+60, SAME, 100,50);
 
              }
-            catch (Throwable e) {
+            catch (final Throwable e) {
                 e.printStackTrace();
             }
 
